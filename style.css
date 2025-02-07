@@ -14,3 +14,15 @@
 .grid-area {
   border: red dashed 1px;
 }
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sidebar ul li > a,
+.sidebar .logo-content > a {
+  display: flex;
+  gap: 15px;
+}
