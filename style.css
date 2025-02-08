@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*Sidebar - Content*/
 .grid-1 {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -25,4 +26,10 @@
 .sidebar .logo-content > a {
   display: flex;
   gap: 15px;
+}
+
+/*Header - Main Content*/
+.grid-2 {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
 }
