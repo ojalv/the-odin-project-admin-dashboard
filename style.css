@@ -43,7 +43,7 @@
 /*Header - Main Content*/
 .grid-2 {
   display: grid;
-  grid-template-rows: 1fr 6fr;
+  grid-template-rows: auto auto;
 }
 .header > * {
   justify-content: space-between;
