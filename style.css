@@ -48,3 +48,10 @@
 .header > * {
   justify-content: space-between;
 }
+
+/*Your Projects - Announcements And Trending*/
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
