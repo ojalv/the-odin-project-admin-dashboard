@@ -1,7 +1,19 @@
+/*Global*/
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 /*Sidebar - Content*/
