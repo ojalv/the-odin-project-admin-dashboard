@@ -45,3 +45,6 @@
   display: grid;
   grid-template-rows: 1fr 6fr;
 }
+.header > * {
+  justify-content: space-between;
+}
