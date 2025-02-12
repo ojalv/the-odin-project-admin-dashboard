@@ -43,14 +43,21 @@ body {
   flex-direction: column;
   gap: 40px;
   background-color: var(--color-blue-1);
+  font-size: 1.3rem;
 }
 
 .sidebar ul li > a,
 .sidebar .logo-content > a {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
   text-decoration: none;
   color: var(--color-white);
+  margin-left: 1rem;
+}
+
+.sidebar .logo-content > a {
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 /*Header - Main Content*/
