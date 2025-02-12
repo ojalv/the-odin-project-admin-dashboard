@@ -1,9 +1,23 @@
 /*Global*/
+:root {
+  /*Color Palette*/
+  --color-white: #ffffff;
+  --color-gray-1: #eceef1;
+  --color-gray-2: #e2e8f0;
+  --color-gray-3: #e1e7f0;
+  --color-blue-1: #1992d4;
+  --color-blue-2: #1791d4;
+  --color-yellow-1: #ffd700;
+}
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-white);
 }
 
 .flex-column {
@@ -28,12 +42,15 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  background-color: var(--color-blue-1);
 }
 
 .sidebar ul li > a,
 .sidebar .logo-content > a {
   display: flex;
   gap: 15px;
+  text-decoration: none;
+  color: var(--color-white);
 }
 
 /*Header - Main Content*/
@@ -45,9 +62,27 @@
   justify-content: space-between;
 }
 
+.header .header-buttons .button {
+  background-color: var(--color-blue-1);
+}
+
 /*Your Projects - Announcements And Trending*/
 
 .grid-3 {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  background-color: var(--color-gray-2);
+}
+
+.card-1 {
+  background-color: var(--color-white);
+  border-left: var(--color-yellow-1) 10px solid;
+}
+
+.card-2 {
+  background-color: var(--color-white);
+}
+
+.card-3 {
+  background-color: var(--color-white);
 }
