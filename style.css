@@ -66,6 +66,16 @@ body {
   background-color: var(--color-blue-1);
 }
 
+.header #search-bar {
+  background-color: var(--color-gray-2);
+  border: none;
+  border-radius: 16px;
+}
+
+.header #search-bar:focus {
+  outline: none;
+}
+
 /*Your Projects - Announcements And Trending*/
 
 .grid-3 {
