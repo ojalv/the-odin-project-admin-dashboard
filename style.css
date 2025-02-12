@@ -39,7 +39,7 @@
 /*Header - Main Content*/
 .grid-2 {
   display: grid;
-  grid-template-rows: auto auto;
+  grid-template-rows: minmax(auto, 100px) auto;
 }
 .header > * {
   justify-content: space-between;
