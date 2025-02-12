@@ -65,6 +65,16 @@ body {
   display: grid;
   grid-template-rows: minmax(auto, 100px) auto;
 }
+
+.header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .header > * {
   justify-content: space-between;
 }
@@ -73,10 +83,23 @@ body {
   background-color: var(--color-blue-1);
 }
 
+.header .search-elements {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 800px;
+}
+
 .header #search-bar {
   background-color: var(--color-gray-2);
   border: none;
   border-radius: 16px;
+  padding: 3px 12px;
+  font-size: 1.3rem;
+  width: 80%;
 }
 
 .header #search-bar:focus {
