@@ -63,7 +63,7 @@ body {
 /*Header - Main Content*/
 .grid-2 {
   display: grid;
-  grid-template-rows: minmax(auto, 150px)  4fr;
+  grid-template-rows: minmax(auto, 150px) 4fr;
 }
 
 .header {
@@ -77,7 +77,7 @@ body {
 
 .header > * {
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
 }
 
 .header .header-buttons .button {
@@ -104,6 +104,30 @@ body {
 
 .header #search-bar:focus {
   outline: none;
+}
+
+.header .top-right-elements {
+  gap: 1rem;
+  align-items: center;
+}
+
+.header .top-right-elements .icon {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.header .top-right-elements .logo {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.header .top-right-elements .user-nickname {
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
 }
 
 /*Your Projects - Announcements And Trending*/
