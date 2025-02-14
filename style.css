@@ -130,6 +130,18 @@ body {
   font-size: 1.3rem;
 }
 
+.header .user-welcome{
+  align-items: center;
+  gap: 1rem;
+}
+
+.header .user-welcome .logo {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
 /*Your Projects - Announcements And Trending*/
 
 .grid-3 {
