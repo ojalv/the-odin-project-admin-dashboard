@@ -142,6 +142,21 @@ body {
   border-radius: 100%;
 }
 
+.header .header-buttons{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+}
+
+.header .header-buttons .button{
+  color: var(--color-white);
+  border: none;
+  border-radius: 2rem;
+  width: 86px;
+  height: 36px;
+  font-weight: 800;
+}
 /*Your Projects - Announcements And Trending*/
 
 .grid-3 {
